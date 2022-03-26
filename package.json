@@ -144,7 +144,7 @@
 		"masonry-layout": "4.2.2",
 		"moment": "2.29.1",
 		"objectFitPolyfill": "2.3.5",
-		"polyfill-library": "3.105.0",
+		"polyfill-library": "3.111.0",
 		"react": "16.13.1",
 		"react-dom": "16.13.1",
 		"regenerator-runtime": "0.13.7",
