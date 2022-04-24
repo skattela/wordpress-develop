@@ -78,7 +78,7 @@ jobs:
           composer --version
 
       - name: Install Composer dependencies
-        uses: ramsey/composer-install@92a7904348d4ad30236f3611e33b7f0c6f9edd70 # v1.1.0
+        uses: ramsey/composer-install@72896eb33d648d92b8fdc52eb711613e89407fe2 # v1.1.0
         with:
           composer-options: "--no-progress --no-ansi --no-interaction"
 
