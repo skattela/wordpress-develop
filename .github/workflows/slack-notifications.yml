@@ -43,7 +43,7 @@ jobs:
     steps:
       - name: Get details about the previous workflow run
         id: previous-result
-        uses: actions/github-script@a3e7071a34d7e1f219a8a4de9a5e0a34d1ee1293 # v4.0.2
+        uses: actions/github-script@c713e510dbd7d213d92d41b7a7805a986f4c5c66 # v4.0.2
         with:
           script: |
             const workflow_runs = await github.actions.listWorkflowRuns({
