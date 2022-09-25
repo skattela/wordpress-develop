@@ -82,7 +82,7 @@ jobs:
 
     steps:
       - name: Post failure notifications to Slack
-        uses: slackapi/slack-github-action@d5d276d7ae0f38f29322b80da9baf985cc80f8b1 # v1.15.0
+        uses: slackapi/slack-github-action@a764c057f3667abde4c57b733b27840e10acecf1 # v1.15.0
         with:
           payload: ${{ needs.prepare.outputs.payload }}
         env:
@@ -97,7 +97,7 @@ jobs:
 
     steps:
       - name: Post failure notifications to Slack
-        uses: slackapi/slack-github-action@d5d276d7ae0f38f29322b80da9baf985cc80f8b1 # v1.15.0
+        uses: slackapi/slack-github-action@a764c057f3667abde4c57b733b27840e10acecf1 # v1.15.0
         with:
           payload: ${{ needs.prepare.outputs.payload }}
         env:
@@ -112,7 +112,7 @@ jobs:
 
     steps:
       - name: Post success notifications to Slack
-        uses: slackapi/slack-github-action@d5d276d7ae0f38f29322b80da9baf985cc80f8b1 # v1.15.0
+        uses: slackapi/slack-github-action@a764c057f3667abde4c57b733b27840e10acecf1 # v1.15.0
         with:
           payload: ${{ needs.prepare.outputs.payload }}
         env:
@@ -127,7 +127,7 @@ jobs:
 
     steps:
       - name: Post cancelled notifications to Slack
-        uses: slackapi/slack-github-action@d5d276d7ae0f38f29322b80da9baf985cc80f8b1 # v1.15.0
+        uses: slackapi/slack-github-action@a764c057f3667abde4c57b733b27840e10acecf1 # v1.15.0
         with:
           payload: ${{ needs.prepare.outputs.payload }}
         env:
