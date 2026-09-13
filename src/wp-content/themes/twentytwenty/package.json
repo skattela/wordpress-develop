@@ -20,7 +20,7 @@
 		"concurrently": "6.2.0",
 		"postcss-cli": "8.3.1",
 		"postcss": "8.3.0",
-		"rtlcss": "3.2.0",
+		"rtlcss": "3.5.0",
 		"stylelint-a11y": "1.2.3"
 	},
 	"browserslist": [
